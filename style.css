@@ -68,7 +68,7 @@ h2 {
 /* Navigation */
 nav {
   z-index: 10;
-  position: fixed;
+  position: absolute;
   font-size: 24px;
   letter-spacing: 3px;
   padding: 25px;
@@ -397,6 +397,7 @@ input:checked + .slider::before {
 
   h2 {
     font-size: 1.2rem;
+    margin-top: 20px;
   }
 
   button {
