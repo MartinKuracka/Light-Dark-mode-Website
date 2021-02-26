@@ -391,7 +391,8 @@ input:checked + .slider::before {
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 2.8rem;
-    text-align: center;
+    max-width: 80vw;
+    text-align: center; 
   }
 
   h2 {
