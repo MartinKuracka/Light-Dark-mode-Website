@@ -399,6 +399,10 @@ input:checked + .slider::before {
     font-size: 1.5rem;
   }
 
+  .toggle-text {
+    display: none;
+  }
+
   .buttons {
     display: flex;
     justify-content: center;
