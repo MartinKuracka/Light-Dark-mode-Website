@@ -5,12 +5,14 @@ const image1 = document.getElementById('image1');
 const image2 = document.getElementById('image2');
 const image3 = document.getElementById('image3');
 const textBox = document.getElementById('text-box');
+const footerLogo = document.getElementById('f-img');
 
 //  Dark Or Light Images
 imageMode = (color) => {
     image1.src = `img/undraw_proud_coder_${color}.svg`;
     image2.src = `img/undraw_conceptual_idea_${color}.svg`;
     image3.src = `img/undraw_feeling_proud_${color}.svg`;
+    footerLogo.src = `logo_footer_${color}.png`;
 }
 
 // Switch the Color Mode

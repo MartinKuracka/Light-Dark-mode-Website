@@ -205,6 +205,10 @@ p {
   justify-content: space-between;.
   align-items: center;
 }
+
+.soc-icon {
+  margin: 10px 5px;
+}
  
 /* Dark Mode Toggle */
 .theme-switch-wrapper {
@@ -297,7 +301,7 @@ input:checked + .slider::before {
 .footer img {
   width: 100px;
   height:auto;
-  color: var(--on-background);
+  /* color: var(--on-background); */
 }
 .f-text {
   font-family: 'Lato', sans-serif;
@@ -398,6 +402,7 @@ input:checked + .slider::before {
   h2 {
     font-size: 1.2rem;
     margin-top: 20px;
+    text-align: center;
   }
 
   button {
