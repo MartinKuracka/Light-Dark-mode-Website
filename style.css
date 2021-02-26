@@ -58,6 +58,8 @@ h1 {
 
 h2 {
   font-size: 32px;
+  max-width: 600px;
+  margin: auto 20px;
   font-weight: normal;
   font-family: 'Lato', serif;
   color: var(--on-background-alt);
@@ -332,7 +334,7 @@ input:checked + .slider::before {
   }
 
   a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-top: 10px;
   }
 
